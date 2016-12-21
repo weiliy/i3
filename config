@@ -165,8 +165,5 @@ bar {
 }
 
 # Fix Teamview windows
+for_window [class="TeamViewer.exe"] floating enable
 for_window [class="Wine"] floating enable
-for_window [title="TeamViewer Panel (minimized)"] floating enable, move absolute position 900 px 0 px
-for_window [title="TeamViewer Panel"] floating enable, move absolute position 900 px 0 px
-for_window [title="TeamViewer"] floating enable, move absolute position 0 px 0 px
-for_window [title="Computers & Contacts"] floating enable, move absolute position 0 px 0 px
