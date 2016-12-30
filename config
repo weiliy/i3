@@ -167,3 +167,7 @@ bar {
 # Fix Teamview windows
 for_window [class="TeamViewer.exe"] floating enable
 for_window [class="Wine"] floating enable
+
+# xrandr
+exec --no-startup-id ~/bin/i3-script-autoxrandr.sh
+
