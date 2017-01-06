@@ -171,3 +171,6 @@ for_window [class="Wine"] floating enable
 # xrandr
 exec --no-startup-id ~/bin/i3-script-autoxrandr.sh
 
+# start the chinese input
+exec /usr/bin/ibus-daemon
+
