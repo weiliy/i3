@@ -154,6 +154,9 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -q set Master 4%+ unmut
 bindsym XF86AudioLowerVolume exec --no-startup-id amixer -q set Master 4%- unmute 
 bindsym XF86AudioMute exec amixer -q set Master toggle
 
+bindsym $mod+Shift+F12 exec --no-startup-id amixer -q set Master 4%+ unmute
+bindsym $mod+Shift+F11 exec --no-startup-id amixer -q set Master 4%- unmute
+
 # Screen brightness controls
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10
