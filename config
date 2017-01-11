@@ -172,6 +172,7 @@ for_window [class="TeamViewer.exe"] floating enable
 for_window [class="Wine"] floating enable
 
 # xrandr
+bindsym $mod+Shift+p exec --no-startup-id ~/bin/i3-script-autoxrandr.sh
 exec --no-startup-id ~/bin/i3-script-autoxrandr.sh
 
 # start the chinese input
