@@ -8,6 +8,6 @@ if xrandr | grep "$extern disconnected"; then
 else
     xrandr --output "$intern" --rotate normal
     xrandr --output "$extern" --rotate left
-    xrandr --output "$intern" --auto --left-of "$extern" --auto
+    xrandr --output "$intern" --auto --right-of "$extern" --auto
 fi
 
