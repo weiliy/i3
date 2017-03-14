@@ -6,8 +6,6 @@ extern=HDMI2
 if xrandr | grep "$extern disconnected"; then
     xrandr --output "$extern" --off --output "$intern" --auto
 else
-    xrandr --output "$intern" --rotate normal
-    xrandr --output "$extern" --rotate left
-    xrandr --output "$intern" --auto --right-of "$extern" --auto
+    xrandr --output "$intern" --off --output "$extern" --auto
 fi
 
